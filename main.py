@@ -5,7 +5,7 @@ from os import environ
 
 load_dotenv()
 
-intents = nextcord.intents.all()
+intents = nextcord.Intents.all()
 bot = commands.Bot(command_prefix=".", intents=intents)
 
 @bot.event
